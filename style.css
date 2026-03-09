@@ -127,4 +127,23 @@ form button {
 }
 form button:hover {
     background-color: #2980b9;
+
+}
+nav{
+    background-color: #5c3b1e;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
