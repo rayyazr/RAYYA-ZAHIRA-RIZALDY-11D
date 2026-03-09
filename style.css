@@ -42,7 +42,7 @@ p {
     line-height: 1.5;
 }
 
-/* ===== GRID PRODUK ===== */
+/* ===== PRODUK GRID ===== */
 .daftar-produk {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -52,7 +52,7 @@ p {
 
 /* ===== CARD PRODUK ===== */
 .produk {
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 10px;
@@ -124,7 +124,7 @@ p {
     background-color: #f9f9f9;
 }
 
-/* ===== TOMBOL ===== */
+/* ===== BUTTON ===== */
 .btn-kembali {
     display: inline-block;
     margin-top: 30px;
@@ -139,7 +139,7 @@ p {
     background-color: #004d99;
 }
 
-/* ===== FORM TESTIMONI ===== */
+/* ===== FORM ===== */
 .formulir {
     max-width: 600px;
     margin: auto;
@@ -184,8 +184,4 @@ footer {
     margin-top: 40px;
     text-align: center;
     padding: 20px;
-}
-header img{
-width:100%;
-height:auto;
 }
