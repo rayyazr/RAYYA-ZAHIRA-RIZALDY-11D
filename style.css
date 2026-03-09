@@ -1,149 +1,80 @@
+/* Import font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap');
+
+/* Reset dasar */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
 body{
-    background-color: rgb(250, 239, 225);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #362006;
-    margin: 20px;
-}
-h1{
-    color: rgb(63, 30, 12);
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:#f5f7fb;
+    color:#333;
 }
 
-h2 {
-    color: #010c18;
-    text-align: left;
-}
-p {
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.5;
+/* Header */
+header{
+    background: linear-gradient(135deg,#6a9cff,#9cc6ff);
+    color:white;
+    text-align:center;
+    padding:30px;
 }
 
-.daftar-produk {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+header h1{
+    font-family:'Playfair Display', serif;
+    font-size:40px;
+    margin-bottom:10px;
 }
-.produk{
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-.produk img {
-    width: 150px;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px
-}
-.produk h2 {
-    font-size: 20px;
-    color: #2c3e50;
-}
-.produk h3 {
-    font-size: 16px;
-    color: #2c3e50;
-}
-.harga {
-    font-weight: bold;
-    color: #27ae60;
-}
-.deskripsi {
-    font-size: 14px;
-    color: #555;
-}
-.artikel {
-    max-width: 700px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fdfdfd;
-    font-family: 'Georgia', serif;
 
-    line-height: 1.8;
-}
-.artikel .penulis {
-    font-style: italic;
-    color: #666;
-    margin-bottom: 20px;
-}
-.artikel .sampul {
-    width: 180px;
-    float: right;
-    margin: 0 0 20px 20px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-}
-.artikel blockquote {
-    font-style: italic;
-    padding-left: 20px;
-    margin: 20px 0;
-    border-left: 4px solid#999;
-    color: #444;
-    background-color: #f9f9f9;
-}
-.btn-kembali {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 16px;
-    background-color: #0066cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-}
-.btn-kembali:hover {
-    background-color: #004d99;
-}
-.formulir {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fafafa;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-form label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-form input, form select, form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-form button {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-form button:hover {
-    background-color: #2980b9;
-
-}
+/* Navigasi */
 nav{
-    background-color: #5c3b1e;
-    padding: 15px;
-    text-align: center;
-    border-radius: 8px;
+    background:#ffffff;
+    text-align:center;
+    padding:15px;
 }
 
 nav a{
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    font-size: 16px;
+    text-decoration:none;
+    color:#333;
+    margin:0 15px;
+    font-weight:500;
 }
 
 nav a:hover{
-    text-decoration: underline;
+    color:#6a9cff;
 }
+
+/* Konten utama */
+.container{
+    width:85%;
+    margin:auto;
+    padding:30px;
+}
+
+/* Gambar */
+img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Card buku */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-top:20px;
+}
+
+/* Footer */
+footer{
+    background:#6a9cff;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
