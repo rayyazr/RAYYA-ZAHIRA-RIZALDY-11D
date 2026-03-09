@@ -185,3 +185,35 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.info-toko{
+margin-bottom:30px;
+line-height:1.8;
+}
+
+.form-kontak form{
+display:flex;
+flex-direction:column;
+gap:10px;
+max-width:500px;
+}
+
+input, textarea{
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+font-family:'Poppins', sans-serif;
+}
+
+button{
+background:#6a9cff;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#4d7ee8;
+}
